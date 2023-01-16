@@ -1,7 +1,7 @@
 Informatic - The gateway to all of a learner's needs both today and tomorrow.
 ===
 
-![Platform Visualization](public/img/document/Overview.gif)
+![Platform Visualization](public/img/document/1.png)
 
 ## Link
 https://informatic.netlify.app/
