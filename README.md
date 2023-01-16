@@ -63,9 +63,8 @@ One important component that was needed for Informatic was the classmates view. 
 
 ## Responsive Design Screenshots 
 
-![Mobile Platform Dashboard](public/img/document/mobile1.png)
-![Mobile Courses Dashboard](public/img/document/mobile2.png)
-![Mobile News Dashboard](public/img/document/mobile3.png)
+![Mobile Platform](public/img/document/mobile.png)
+
 
 
 ## Future Enhancements  
