@@ -1,10 +1,10 @@
 Informatic - The gateway to all of a learner's needs both today and tomorrow.
 ===
 
-![Platform Visualization](img/document/Overview.gif)
+![Platform Visualization](public/img/document/Overview.gif)
 
 ## Link
-...
+https://informatic.netlify.app/
 
 ## Description 
 The goal of this learning portal is to serve as the one stop place for learners. Major features included full-text search of courses, discussion boards for students, contributing to discussion boards, filtering current courses from previous and future courses, detailed views for news / organizational updates, a classmates portal to explore all classmates, and various detailed views.
@@ -39,7 +39,7 @@ The goal of this learning portal is to serve as the one stop place for learners.
 ...
 
 ### Dashboard  
-![Platform Visualization](img/document/1.png)
+![Platform Visualization](public/img/document/1.png)
 
 ...
 ### Search  
@@ -47,15 +47,15 @@ The goal of this learning portal is to serve as the one stop place for learners.
 ...
 
 ### Discussion Board / Course Details
-![Detail course view](img/document/2.png)
+![Detail course view](public/img/document/2.png)
 
 ...
 ### News Detail View  
-![Detail news letter view](img/document/4.png)
+![Detail news letter view](public/img/document/4.png)
 
 ...
 ### Classmates 
-![Members page dashboard](img/document/7.png)
+![Members page dashboard](public/img/document/7.png)
 
 ...
 
@@ -89,25 +89,25 @@ Without you all this application would not be possible.
 User scenarios taking you through the learning experience 
 
 
-![Platform Dashboard](img/document/1.png)
+![Platform Dashboard](public/img/document/1.png)
 Platform Dashboard, every user has to start from somewhere :D
 
-![Detail course view](img/document/2.png)
+![Detail course view](public/img/document/2.png)
 Detail course view
 
 ![Modal search throughout the application](img/document/3.png)
 Modal search throughout the application
 
-![Detail news letter view](img/document/4.png)
+![Detail news letter view](public/img/document/4.png)
 Detail news letter view
 
-![News letter dashboard](img/document/5.png)
+![News letter dashboard](public/img/document/5.png)
 News letter dashboard
 
-![Course page dashboard](img/document/6.png)
+![Course page dashboard](public/img/document/6.png)
 Course page dashboard
 
-![Members page dashboard](img/document/7.png)
+![Members page dashboard](public/img/document/7.png)
 Members page dashboard
 
 
