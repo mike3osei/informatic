@@ -14,7 +14,7 @@ The goal of this learning portal is to serve as the one stop place for learners.
 - Typescript with all Types
 - React-Router-Dom
 - Full-text Search (Fuzzy Search) on all courses
-- React Deployment to Git-pages
+- React Deployment to Netlify
 - Discussion board with user input
 - News feed including comments
 - Tabs controller for filtering current, future, and previous courses
@@ -34,6 +34,7 @@ The goal of this learning portal is to serve as the one stop place for learners.
 - Reusable components throughout the application
 - Dynamic sidebar menu
 - Current user menu popover
+- SEO meta tags
 
 ## Major Features • Design & Development Decisions 
 Here's a breakdown of all the main features that are in this project:
@@ -62,10 +63,9 @@ One important component that was needed for Informatic was the classmates view. 
 
 ## Responsive Design Screenshots 
 
-![Mobile Platform Dashboard](img/document/mobile1.png)
-![Mobile Courses Dashboard](img/document/mobile2.png)
-![Mobile News Dashboard](img/document/mobile3.png)
-![Mobile Classmates Dashboard](img/document/mobile4.png)
+![Mobile Platform Dashboard](public/img/document/mobile1.png)
+![Mobile Courses Dashboard](public/img/document/mobile2.png)
+![Mobile News Dashboard](public/img/document/mobile3.png)
 
 
 ## Future Enhancements  
@@ -89,7 +89,7 @@ Special thanks to ReactJS, Storyset, RandomUser.me, ReactIcons, Logopony, SVG2JS
 - Design Framework used to build this project (Design framework) https://chakra-ui.com/
 - Converted an SVG logo to JSX (Logo) https://svg2jsx.com/
 - External API for generating fake users for this application (API) https://randomuser.me/
-- Hosted the website (Public Host) https://pages.github.com/
+- Hosted the website (Public Host) https://www.netlify.com/
 - Helped generate text. (Lorem Ipsum Alternative) https://chat.openai.com/chat
 
 Without you all this application would not be possible.
