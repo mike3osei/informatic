@@ -1,7 +1,7 @@
 {
   "name": "openinformatic",
   "version": "0.1.0",
-  "homepage": "https://mike3osei.github.io/informatic/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.4.8",
