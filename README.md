@@ -36,37 +36,46 @@ The goal of this learning portal is to serve as the one stop place for learners.
 - Current user menu popover
 
 ## Major Features • Design & Development Decisions 
-...
+Here's a breakdown of all the main features that are in this project:
 
 ### Dashboard  
 ![Platform Visualization](public/img/document/1.png)
+The dashboard is the learner lands. This includes a side navigation bar to navigate through the major components of the website, a main course section that allows the users to filter their courses based on the current, previous, and future courses, as well as an "All" overview tab. Included next to the main content section is a right side dash panel for quick statistics on where the user is at, as well as news updates that might be relavent to the user. All views are fully responsive and you'll notice that resizing the window will showcase different content.
 
-...
 ### Search  
-![Modal search throughout the application](img/document/3.png)
-...
+![Modal search throughout the application](public/img/document/3.png)
+Included in the Appbar we have a search component that does full-text search on all the course titles and descriptions that are within the datastore. This is a quick way to navigate through courses and it is the core of the application, which made it a reasonable case to keep throughout the entire applicaiton. Here in the Appbar we have some usage of the Gestalt Principles (ie: proximity, closure, and continuation). You'll notice there's no use of borders with the Appbar, we leveraged closure instead to keep a minimalistic feel. The search leverages a Modal as well to allow users to not have to leave each page. They're always a few clicks away from their next destination.
 
 ### Discussion Board / Course Details
 ![Detail course view](public/img/document/2.png)
+In this component we have a quick overview of the course that the user is on. There are some actions that are present as well as a discusion board. You'll notice the input to create a new discussion board is disabled until the user inputs some values to prevent empty API (HTTP Post Request). The data that is being fetched for the discussion board is from the external RandomUser.me API which is our base external API for loading users in this application. Every time a user navigates to the discussion board or course view new data is rendered. This view is fully responsive and on mobile you'll see that the viewpoint simply collapse in a flexbox style.
 
-...
+
 ### News Detail View  
 ![Detail news letter view](public/img/document/4.png)
+Along with courses. Informatic includes a news detail view. This news detail page includes a comment section which fetches from RandomUser.me. Generally with Informatic it's important to have a way to share marketing news as well as educational content and the news section provides this. Similar to a Medium blog post Informatic renders blogs that are performant for web and mobile.    
 
-...
 ### Classmates 
 ![Members page dashboard](public/img/document/7.png)
+One important component that was needed for Informatic was the classmates view. Here there is a suite of users that are rendered directly from our external api RandomUser.me. About 70~ random users are selected and then filtered out for uniques and displayed. This hopefully gives a sense of who's learning and educationally growing alongside the target student.
 
-...
+
+## Responsive Design Screenshots 
+
+![Mobile Platform Dashboard](img/document/mobile1.png)
+![Mobile Courses Dashboard](img/document/mobile2.png)
+![Mobile News Dashboard](img/document/mobile3.png)
+![Mobile Classmates Dashboard](img/document/mobile4.png)
+
 
 ## Future Enhancements  
 - Full Authentication leveraging JWT tokens if we want a mobile integration or Ouath 2 if we are looking at a full session based implementation.
-- Advanced search on any update, newsletter, course and classmates. We could leverage elastic search based on the size of the dataset.
+- Advanced search on any update, newsletter, course and classmates. Informatic could leverage elastic search based on the size of the dataset.
 - Stripe integration for subscription payments.
 - Implement a settings and billing dashboard for miscellaneous inputs.
 - Email based notification system based on user opt-in.
 - Sendgrid (email management system) implementation to send out emails to students.
-- Extended user growth metrics to track their progress. We could leverage D3 to implement various data visualizations.
+- Extended user growth metrics to track their progress. Informatic could leverage D3 to implement various data visualizations.
 - Our LMS can include appointments scheduling as well availability management.
 - Custom video component for serving video lessons.
 - Canvas integration for enablement of a grading api.
@@ -84,31 +93,6 @@ Special thanks to ReactJS, Storyset, RandomUser.me, ReactIcons, Logopony, SVG2JS
 - Helped generate text. (Lorem Ipsum Alternative) https://chat.openai.com/chat
 
 Without you all this application would not be possible.
-
-## Screenshots 
-User scenarios taking you through the learning experience 
-
-
-![Platform Dashboard](public/img/document/1.png)
-Platform Dashboard, every user has to start from somewhere :D
-
-![Detail course view](public/img/document/2.png)
-Detail course view
-
-![Modal search throughout the application](img/document/3.png)
-Modal search throughout the application
-
-![Detail news letter view](public/img/document/4.png)
-Detail news letter view
-
-![News letter dashboard](public/img/document/5.png)
-News letter dashboard
-
-![Course page dashboard](public/img/document/6.png)
-Course page dashboard
-
-![Members page dashboard](public/img/document/7.png)
-Members page dashboard
 
 
 ## Deploy Locally
